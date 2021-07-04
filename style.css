@@ -1,18 +1,27 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .orange-color{
     color: orange;
 }
+#first-div{
+    padding-left: 60px;
+}
+.half-width{
+    padding: 20px 40px;
+    width: 40%;
+}
 section{
     display: flex;
+    margin-top: 100px;
 }
 section .half-width{
     width: 50%;
     padding-left: 20px;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
 }
 .anchor{
     text-decoration: none;
@@ -21,4 +30,13 @@ section .half-width{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.top-site{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.mid-site{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
